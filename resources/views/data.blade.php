@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    {{$result->format('%y').'anos'}}
-    {{$result->format('%m').'meses'}}
-    {{$result->format('%d').'dias'}}
+    {{$result->format('%y').' anos'}}
+    {{$result->format('%m').' meses'}}
+    {{$result->format('%d').' dias'}}
 </body>
 </html>
